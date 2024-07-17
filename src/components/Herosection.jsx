@@ -4,18 +4,53 @@ const Herosection = () => {
     useEffect(() => {
         const backreveal = document.getElementsByClassName("backreveal");
         const backrevealparents = document.getElementsByClassName("backrevealparent");
-
+        const backreveal1 = document.getElementsByClassName("backreveal1");
+        const backrevealparents1 = document.getElementsByClassName("backrevealparent1");
+        const backreveal2 = document.getElementsByClassName("backreveal2");
+        const backrevealparents2 = document.getElementsByClassName("backrevealparent2");
         Array.from(backrevealparents).forEach(backrevealparent => {
             backrevealparent.addEventListener('mousemove', () => {
                 Array.from(backreveal).forEach(reveal => {
-                    reveal.style.width = "200%";
-                    reveal.style.height = "200%";
+                    reveal.style.width = "2000px";
+                    reveal.style.height = "2000px";
                 });
             });
         });
         Array.from(backrevealparents).forEach(backrevealparent => {
             backrevealparent.addEventListener('mouseleave', () => {
                 Array.from(backreveal).forEach(reveal => {
+                    reveal.style.width = "0%";
+                    reveal.style.height = "0%";
+                });
+            });
+        });
+        Array.from(backrevealparents1).forEach(backrevealparent => {
+            backrevealparent.addEventListener('mousemove', () => {
+                Array.from(backreveal1).forEach(reveal => {
+                    reveal.style.width = "2000px";
+                    reveal.style.height = "2000px";
+                });
+            });
+        });
+        Array.from(backrevealparents1).forEach(backrevealparent => {
+            backrevealparent.addEventListener('mouseleave', () => {
+                Array.from(backreveal1).forEach(reveal => {
+                    reveal.style.width = "0%";
+                    reveal.style.height = "0%";
+                });
+            });
+        });
+        Array.from(backrevealparents2).forEach(backrevealparent => {
+            backrevealparent.addEventListener('mousemove', () => {
+                Array.from(backreveal2).forEach(reveal => {
+                    reveal.style.width = "2000px";
+                    reveal.style.height = "2000px";
+                });
+            });
+        });
+        Array.from(backrevealparents2).forEach(backrevealparent => {
+            backrevealparent.addEventListener('mouseleave', () => {
+                Array.from(backreveal2).forEach(reveal => {
                     reveal.style.width = "0%";
                     reveal.style.height = "0%";
                 });
@@ -32,14 +67,15 @@ const Herosection = () => {
                 <p style={{zIndex:"900"}} className='py-10 relative'>Skills</p>
                 <div style={{zIndex:"899"}} className='backreveal'></div>
             </div>
-            <div className='overflow-hidden relative opacity-60 transition-all hover:opacity-100 hover:text-baseblack-100 text-center border-white border-r-2 px-20'>
-                <p className='backrevealparent absolute opacity-20 text-baseblack-100' style={{fontSize:"20rem",zIndex:"901"}}>Projects</p>
+            <div className='backrevealparent1 overflow-hidden relative opacity-60 transition-all hover:opacity-100 hover:text-baseblack-100 text-center border-white border-r-2 px-20'>
+                <p className='absolute opacity-20 text-baseblack-100' style={{fontSize:"20rem",zIndex:"901"}}>Projects</p>
                 <p style={{zIndex:"900"}} className='py-10 relative'>Projects</p>
-                <div style={{zIndex:"899"}} className='backreveal'></div>
+                <div style={{zIndex:"899"}} className='backreveal1'></div>
             </div>
-            <div className='overflow-hidden relative opacity-60 transition-all hover:bg-basered-100 hover:opacity-100 hover:text-baseblack-100 text-center px-20 flex-auto'>
-                <p className='absolute opacity-20 text-baseblack-100' style={{fontSize:"20rem"}}>Contact</p>
-                <p className='py-10'>Connect With Me</p>
+            <div className='backrevealparent2 overflow-hidden relative opacity-60 transition-all hover:opacity-100 hover:text-baseblack-100 text-center px-20 flex-auto'>
+                <p className='absolute opacity-20 text-baseblack-100' style={{fontSize:"20rem",zIndex:"901"}}>Contact</p>
+                <p style={{zIndex:"900"}} className='py-10 relative'>Connect With Me</p>
+                <div style={{zIndex:"899"}} className='backreveal2'></div>
             </div>
         </div>
         <div style={{zIndex:"1"}} className='bg-baseblack-100 sticky top-0  border-t-2 min-h-80 flex justify-center items-center overflow-hidden'>
@@ -97,3 +133,6 @@ export default Herosection
 // }
 
 // export default Herosection
+
+
+

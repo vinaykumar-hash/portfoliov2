@@ -38,3 +38,23 @@ body{
   background-color: #FF6969;
   transition: all ease-in-out 500ms;
 }
+.backreveal1{
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 100% 100% 100% 0%;
+  background-color: #FF6969;
+  transition: all ease-in-out 500ms;
+}
+.backreveal2{
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 100% 100% 100% 0%;
+  background-color: #FF6969;
+  transition: all ease-in-out 500ms;
+}
