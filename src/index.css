@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.font-b {
+  font-family: "Fustat", sans-serif;
+  font-style: normal;
+}
+body{
+  background-color: #0A0A0A;
+}
+.red_grade {
+  background: linear-gradient(90deg, #FF6969, #C80036);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body{
+  cursor: none;
+}
+.small{
+  z-index: 999;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #FF6969;
+  border: 2px solid #FF6969;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #FF6969 ;
+}
+.backreveal{
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 100% 100% 0% 100%;
+  background-color: #FF6969;
+  transition: all ease-in-out 500ms;
+}
