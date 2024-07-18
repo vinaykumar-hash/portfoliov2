@@ -3,6 +3,7 @@ import './App.css'
 import Featured from './components/Featured';
 import Herosection from './components/Herosection'
 import Skills from './components/Skills';
+import Collab from './components/Collab';
 
 function App() {
   useEffect(()=>{
@@ -27,6 +28,7 @@ function App() {
       <Herosection/>
       <Featured/>
       <Skills/>
+      <Collab/>
     </div>
   )
 }

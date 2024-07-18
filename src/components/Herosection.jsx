@@ -105,7 +105,7 @@ const Herosection = () => {
                 <h2 className='tracking-tighter red_grade'>Choudhary</h2>
             </div>
         </div>
-        <div style={{ zIndex: "2" }} className='px-10 sm:px-20 gap-10 sm:gap-20 sticky top-0 text-white text-5xl sm:text-7xl flex justify-center items-center flex-col sm:flex-row bg-baseblack-100 border-white/50 border-t-2'>
+        <div style={{ zIndex: "2" }} className=' px-10 sm:px-20 gap-10 sm:gap-20 sticky top-0 text-white text-5xl sm:text-7xl flex justify-center items-center flex-col sm:flex-row bg-baseblack-100 border-white/50 border-t-2'>
             <div className='pr-0 sm:pr-20 font-bold tracking-tight w-max flex-1 text-center sm:text-right opacity-40 flex justify-center items-center border-white/50 border-r-0 sm:border-r-2 pt-10 py-0 sm:py-10'><p>About</p><p className='ml-2'>Me</p></div>
             <div className='text-2xl sm:text-4xl font-medium tracking-normal text-center sm:text-left sm:pb-0 pb-10'>
                 I'm a college student based in Bengaluru with a passion for UI/UX design.
