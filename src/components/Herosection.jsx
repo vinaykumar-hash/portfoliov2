@@ -62,12 +62,12 @@ const Herosection = () => {
   return (
     <div className=''>
         <div style={{zIndex:"0"}} className=' sticky top-0 text-white text-7xl flex items-stretch justify-center tracking-tight font-bold overflow-hidden'>
-            <div className='backrevealparent overflow-hidden relative opacity-60 transition-all  hover:opacity-100 hover:text-baseblack-100 text-center border-white border-r-2 px-20 flex-auto'>
+            <div className='backrevealparent overflow-hidden relative opacity-60 transition-all  hover:opacity-100 hover:text-baseblack-100 text-center border-white/50 border-r-2 px-20 flex-auto'>
                 <p className='absolute opacity-20 text-baseblack-100' style={{fontSize:"20rem",zIndex:"901"}}>Skills</p>
                 <p style={{zIndex:"900"}} className='py-10 relative'>Skills</p>
                 <div style={{zIndex:"899"}} className='backreveal'></div>
             </div>
-            <div className='backrevealparent1 overflow-hidden relative opacity-60 transition-all hover:opacity-100 hover:text-baseblack-100 text-center border-white border-r-2 px-20'>
+            <div className='backrevealparent1 overflow-hidden relative opacity-60 transition-all hover:opacity-100 hover:text-baseblack-100 text-center border-white/50 border-r-2 px-20'>
                 <p className='absolute opacity-20 text-baseblack-100' style={{fontSize:"20rem",zIndex:"901"}}>Projects</p>
                 <p style={{zIndex:"900"}} className='py-10 relative'>Projects</p>
                 <div style={{zIndex:"899"}} className='backreveal1'></div>
@@ -78,15 +78,15 @@ const Herosection = () => {
                 <div style={{zIndex:"899"}} className='backreveal2'></div>
             </div>
         </div>
-        <div style={{zIndex:"1"}} className='bg-baseblack-100 sticky top-0  border-t-2 min-h-80 flex justify-center items-center overflow-hidden'>
+        <div style={{zIndex:"1"}} className='bg-baseblack-100 sticky top-0 border-white/50 border-t-2 min-h-80 flex justify-center items-center overflow-hidden'>
             <p className='z-0 absolute text-white -top-40 font-bold opacity-10 -left-40' style={{fontSize:"15rem"}}>UIUX Designer</p>
             <div className='z-10 flex justify-center items-center text-8xl font-bold gap-2'>
                 <h1 className='text-white'>Vinay</h1>
                 <h2 className='tracking-tighter red_grade'>Choudhary</h2>
             </div>
         </div>
-        <div style={{ zIndex: "2" }} className='px-20 gap-20 sticky top-0 text-white text-7xl flex justify-center items-center bg-baseblack-100 border-white border-t-2'>
-            <div className=' pr-20 font-bold tracking-tight w-max flex-1 text-right opacity-40 flex justify-center items-center border-white border-r-2 py-10'><p>About</p><p className='ml-2'>Me</p></div>
+        <div style={{ zIndex: "2" }} className='px-20 gap-20 sticky top-0 text-white text-7xl flex justify-center items-center bg-baseblack-100 border-white/50 border-t-2'>
+            <div className=' pr-20 font-bold tracking-tight w-max flex-1 text-right opacity-40 flex justify-center items-center border-white/50 border-r-2 py-10'><p>About</p><p className='ml-2'>Me</p></div>
             <div className='text-4xl font-medium tracking-normal'>
                 I'm a college student based in Bengaluru with a passion for UI/UX design.
             </div>

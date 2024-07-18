@@ -16,7 +16,7 @@ body{
 }
 
 body{
-  cursor: none;
+  cursor: pointer;
 }
 .small{
   z-index: 999;
@@ -57,4 +57,21 @@ body{
   border-radius: 100% 100% 100% 0%;
   background-color: #FF6969;
   transition: all ease-in-out 500ms;
+}
+.skills-container img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.skills-container img:hover {
+  filter: grayscale(0%);
+}
+.hidescroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hidescroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }

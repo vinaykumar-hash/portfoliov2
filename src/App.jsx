@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import './App.css'
 import Featured from './components/Featured';
 import Herosection from './components/Herosection'
+import Skills from './components/Skills';
 
 function App() {
   useEffect(()=>{
@@ -17,7 +18,7 @@ function App() {
     
     }
 
-    window.addEventListener('mousemove', positionElement)
+    //window.addEventListener('mousemove', positionElement)
   },[])
   
   return (
@@ -25,6 +26,7 @@ function App() {
       <div class="cursor small"></div>
       <Herosection/>
       <Featured/>
+      <Skills/>
     </div>
   )
 }
