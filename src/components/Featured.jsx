@@ -2,7 +2,7 @@ import React from 'react'
 // import FI from '../assets/Star'
 const Featured = () => {
   return (
-    <div className='w-full flex justify-center items-center border-white/50 border-t-2 border-b-2 py-16'>
+    <div style={{ zIndex: "4" }} className='w-full sticky top-0 flex justify-center items-center border-white/50 border-t-2 border-b-2 py-16 bg-baseblack-100'>
         <div className='relative'>
             <p className='text-5xl sm:text-7xl font-bold tracking-tight text-white'>Featured Works</p>
             <div className='absolute top-0 -translate-y-10 w-full'>
