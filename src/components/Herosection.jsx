@@ -90,17 +90,17 @@ const Herosection = () => {
                 <div className='w-10 h-1 bg-white rounded-lg '></div>
             </div>
             <div id='options' className='flex w-full flex-col sm:flex-row sm:h-max h-max transition-all'>
-            <div className='backrevealparent overflow-hidden relative opacity-60 transition-all  hover:opacity-100 hover:text-baseblack-100 text-center border-white/50 border-r-2 px-20 flex-auto'>
+            <div id='skills' className='backrevealparent overflow-hidden relative opacity-60 transition-all  hover:opacity-100 hover:text-baseblack-100 text-center border-white/50 border-r-2 px-20 flex-auto'>
                 <p className='absolute opacity-20 text-baseblack-100' style={{fontSize:"20rem",zIndex:"901"}}>Skills</p>
                 <p style={{zIndex:"900"}} className='py-4 sm:py-10 relative'>Skills</p>
                 <div style={{zIndex:"899"}} className='backreveal'></div>
             </div>
-            <div className='backrevealparent1 overflow-hidden relative opacity-60 transition-all hover:opacity-100 hover:text-baseblack-100 text-center border-white/50 border-r-2 px-20'>
+            <div id='projects' className='backrevealparent1 overflow-hidden relative opacity-60 transition-all hover:opacity-100 hover:text-baseblack-100 text-center border-white/50 border-r-2 px-20'>
                 <p className='absolute opacity-20 text-baseblack-100' style={{fontSize:"20rem",zIndex:"901"}}>Projects</p>
                 <p style={{zIndex:"900"}} className='py-4 sm:py-10 relative'>Projects</p>
                 <div style={{zIndex:"899"}} className='backreveal1'></div>
             </div>
-            <div className='backrevealparent2 overflow-hidden relative opacity-60 transition-all hover:opacity-100 hover:text-baseblack-100 text-center px-20 flex-auto'>
+            <div id='contact' className='backrevealparent2 overflow-hidden relative opacity-60 transition-all hover:opacity-100 hover:text-baseblack-100 text-center px-20 flex-auto'>
                 <p className='absolute opacity-20 text-baseblack-100' style={{fontSize:"20rem",zIndex:"901"}}>Contact</p>
                 <p style={{zIndex:"900"}} className='py-4 sm:py-10 relative'>Connect With Me</p>
                 <div style={{zIndex:"899"}} className='backreveal2'></div>

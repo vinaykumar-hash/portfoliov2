@@ -1,13 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useNavigate } from "react-router-dom"; 
 import { redirect } from "react-router-dom";
 const Collab = () => {
+  useEffect(()=>{
+    document.getElementById("contact").addEventListener('click',()=>{
+      document.getElementById('contactmain').scrollIntoView()
+  })
+  },[])
   // const navigate = useNavigate();
   // function navInsta() {
   //   window.location.href = "https://www.instagram.com/vinay_kumar.0.0/";
   // }
   return (
-    <div style={{ zIndex: "5" }} className='magicpattern relative bottom-0 font-b text-white px-20 border-white/50 border-t-2 flex justify-between items-center sm:flex-row flex-col gap-5 sm:gap-0 overflow-hidden'>
+    <div id='contactmain' style={{ zIndex: "5" }} className='magicpattern relative bottom-0 font-b text-white px-20 border-white/50 border-t-2 flex justify-between items-center sm:flex-row flex-col gap-5 sm:gap-0 overflow-hidden'>
         
         <div className='font-bold text-5xl sm:text-7xl min-w-max max-w-max tracking-tight border-white/50 border-r-0 sm:border-r-0 h-full py-20 pr-0 sm:pr-20'>
             <div className='flex justify-start items-end leading-10'>
@@ -18,7 +23,11 @@ const Collab = () => {
         </div>
         <div className=' relative flex justify-center items-center flex-col sm:flex-row text-4xl tracking-tighter font-bold gap-10 sm:gap-5 w-full pb-20 sm:pb-0'>
           <img className='border-basered-100 border-2 h-40 sm:h-40 w-auto rounded-full' src="/profile.jpg" alt="" />
-          <p>@vinay_kumar.0.0 <p className='font-bold text-2xl pl-2 tracking-tight bg-basered-200'>@limit.lessuser</p></p>
+          <div className='flex flex-col'>
+          <a href='https://www.instagram.com/vinay_kumar.0.0/' >@vinay_kumar.0.0 </a>
+          <a href='https://www.instagram.com/limit.lessuser/' className=' font-bold text-2xl pl-2 tracking-tight bg-basered-200'>@limit.lessuser</a>
+          </div>
+          
         </div>
         {/* <div className=' flex flex-col transition-all sm:flex-row w-full justify-center gap-5 sm:gap-20 items-center opacity-50 '>
           <div  className='flex justify-center items-center font-bold text-2xl  text-left'>
