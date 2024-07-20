@@ -13,15 +13,15 @@ const Herosection = () => {
             backrevealparent.addEventListener('mousemove', () => {
                 Array.from(backreveal).forEach(reveal => {
                     reveal.style.width = "2000px";
-                    reveal.style.height = "2000px";
+                    // reveal.style.height = "2000px";
                 });
             });
         });
         Array.from(backrevealparents).forEach(backrevealparent => {
             backrevealparent.addEventListener('mouseleave', () => {
                 Array.from(backreveal).forEach(reveal => {
-                    reveal.style.width = "0%";
-                    reveal.style.height = "0%";
+                    reveal.style.width = "0px";
+                    // reveal.style.height = "0%";
                 });
             });
         });
@@ -29,15 +29,15 @@ const Herosection = () => {
             backrevealparent.addEventListener('mousemove', () => {
                 Array.from(backreveal1).forEach(reveal => {
                     reveal.style.width = "2000px";
-                    reveal.style.height = "2000px";
+                    // reveal.style.height = "2000px";
                 });
             });
         });
         Array.from(backrevealparents1).forEach(backrevealparent => {
             backrevealparent.addEventListener('mouseleave', () => {
                 Array.from(backreveal1).forEach(reveal => {
-                    reveal.style.width = "0%";
-                    reveal.style.height = "0%";
+                    reveal.style.width = "0px";
+                    // reveal.style.height = "0%";
                 });
             });
         });
@@ -45,15 +45,15 @@ const Herosection = () => {
             backrevealparent.addEventListener('mousemove', () => {
                 Array.from(backreveal2).forEach(reveal => {
                     reveal.style.width = "2000px";
-                    reveal.style.height = "2000px";
+                    // reveal.style.height = "2000px";
                 });
             });
         });
         Array.from(backrevealparents2).forEach(backrevealparent => {
             backrevealparent.addEventListener('mouseleave', () => {
                 Array.from(backreveal2).forEach(reveal => {
-                    reveal.style.width = "0%";
-                    reveal.style.height = "0%";
+                    reveal.style.width = "0px";
+                    // reveal.style.height = "0%";
                 });
             });
         });
@@ -70,7 +70,16 @@ const Herosection = () => {
                 clicked = true;
             }
         })
+        let aboutText = document.getElementById("abouttext");
+        let aboutMe = document.getElementById("aboutme");
+        window.addEventListener('scroll',()=>{
+            let scrollTop = window.scrollY;
+
+            // aboutText.style.transform = `translateX(${scrollTop/10}%)`
+            // aboutMe.style.transform = `translateX(-${scrollTop/10}%)`
+        })
     }, []);
+    
     
     
   return (
@@ -106,8 +115,8 @@ const Herosection = () => {
             </div>
         </div>
         <div style={{ zIndex: "3" }} className=' px-10 sm:px-20 gap-10 sm:gap-20 sticky top-0 text-white text-5xl sm:text-7xl flex justify-center items-center flex-col sm:flex-row bg-baseblack-100 border-white/50 border-t-2'>
-            <div className='pr-0 sm:pr-20 font-bold tracking-tight w-max flex-1 text-center sm:text-right opacity-40 flex justify-center items-center border-white/50 border-r-0 sm:border-r-2 pt-10 py-0 sm:py-10'><p>About</p><p className='ml-2'>Me</p></div>
-            <div className='text-2xl sm:text-4xl font-medium tracking-normal text-center sm:text-left sm:pb-0 pb-10'>
+            <div id='aboutme' className='pr-0 sm:pr-20 font-bold tracking-tight w-max flex-1 text-center sm:text-right opacity-40 flex justify-center items-center border-white/50 border-r-0 sm:border-r-2 pt-10 py-0 sm:py-10'><p>About</p><p className='ml-2'>Me</p></div>
+            <div id='abouttext' className=' text-2xl sm:text-4xl font-medium tracking-normal text-center sm:text-left sm:pb-0 pb-10'>
                 I'm a college student based in Bengaluru with a passion for UI/UX design.
             </div>
 </div>

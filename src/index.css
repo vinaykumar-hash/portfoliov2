@@ -29,32 +29,30 @@ body{
   box-shadow: 0px 0px 10px #FF6969 ;
 }
 .backreveal{
-  height: 0%;
-  width: 0%;
+  height: 1000px;
+  width: 0px;
   position: absolute;
   bottom: 0px;
   right: 0px;
-  border-radius: 100% 100% 0% 100%;
+  border-radius: 0px;
   background-color: #FF6969;
   transition: all ease-in-out 500ms;
 }
 .backreveal1{
-  height: 0%;
-  width: 0%;
+  height: 1000px;
+  width: 0px;
   position: absolute;
   bottom: 0px;
   left: 0px;
-  border-radius: 100% 100% 100% 0%;
   background-color: #FF6969;
   transition: all ease-in-out 500ms;
 }
 .backreveal2{
-  height: 0%;
-  width: 0%;
+  height: 1000px;
+  width: 0px;
   position: absolute;
   bottom: 0px;
   left: 0px;
-  border-radius: 100% 100% 100% 0%;
   background-color: #FF6969;
   transition: all ease-in-out 500ms;
 }
@@ -97,7 +95,7 @@ body{
 }
 .polkadot{
   background-color: #0A0A0A;
-opacity: 0.8;
+opacity: 1;
 background-image: radial-gradient(#C80036 0.5px, #0A0A0A 0.5px);
 background-size: 10px 10px;
 }
