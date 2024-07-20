@@ -109,8 +109,8 @@ const Herosection = () => {
         </div>
         <div style={{zIndex:"2"}} className='bg-baseblack-100 sticky top-0 border-white/50 border-t-2 min-h-max py-20 sm:py-0 sm:min-h-80 flex justify-center items-center overflow-hidden'>
             <p className='z-0 absolute text-white -top-40 font-bold opacity-10 -left-40' style={{fontSize:"15rem"}}>UIUX Designer</p>
-            <div className='z-10 flex justify-center items-center text-5xl sm:text-8xl font-bold gap-2'>
-                <h1 className='text-white'>Vinay</h1>
+            <div className='z-10 flex justify-center items-center flex-col sm:flex-row text-6xl sm:text-8xl font-bold gap-2'>
+                <h1 className='text-white leading-4'>Vinay</h1>
                 <h2 className='tracking-tighter red_grade'>Choudhary</h2>
             </div>
         </div>
