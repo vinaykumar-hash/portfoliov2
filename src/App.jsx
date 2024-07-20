@@ -4,7 +4,7 @@ import Featured from './components/Featured';
 import Herosection from './components/Herosection'
 import Skills from './components/Skills';
 import Collab from './components/Collab';
-
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   useEffect(()=>{
     const cursorSmall = document.querySelector('.small');
@@ -29,6 +29,7 @@ function App() {
       <Featured/>
       <Skills/>
       <Collab/>
+      <Analytics/>
     </div>
   )
 }
