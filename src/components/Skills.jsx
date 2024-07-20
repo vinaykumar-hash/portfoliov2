@@ -86,7 +86,7 @@ const Skills = () => {
   ];
 
   return (
-    <div style={{ zIndex: '5' }} className='border-white/50 border-b-2 font-b sticky top-0 flex justify-start items-center sm:flex-row flex-col bg-baseblack-100'>
+    <div style={{ zIndex: '5' }} className='border-white/50 border-b-2 border-t-2 font-b sticky top-0 flex justify-start items-center sm:flex-row flex-col bg-baseblack-100'>
       <div className='relative border-white/50 border-r-0 sm:border-r-2 min-w-full sm:min-w-max sm:max-w-max overflow-hidden'>
         <p style={{ zIndex: '1' }} className='relative text-5xl text-center sm:text-7xl text-white font-bold tracking-tight py-10 px-20'>Skills</p>
         <img style={{ zIndex: '2' }} className='absolute -top-16 -right-16' src='/Startrans.svg' alt='' />

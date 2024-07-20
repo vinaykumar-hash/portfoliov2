@@ -59,7 +59,7 @@ body{
   transition: all ease-in-out 500ms;
 }
 .skills-container img {
-  filter: grayscale(100%);
+  filter: grayscale(0%);
   transition: filter 0.3s ease;
 }
 
@@ -68,6 +68,26 @@ body{
 }
 .hidescroll::-webkit-scrollbar {
   display: none;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  transition: all ease-in-out 100ms;
+  background: #C80036;
+  width: 100%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6969;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
