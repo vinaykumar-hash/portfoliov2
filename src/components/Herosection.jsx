@@ -102,7 +102,7 @@ const Herosection = () => {
             </div>
             <div id='contact' className='backrevealparent2 overflow-hidden relative opacity-60 transition-all hover:opacity-100 hover:text-baseblack-100 text-center px-20 flex-auto'>
                 <p className='absolute opacity-20 text-baseblack-100' style={{fontSize:"20rem",zIndex:"901"}}>Contact</p>
-                <p style={{zIndex:"900"}} className='py-4 sm:py-10 relative'>Connect With Me</p>
+                <p style={{zIndex:"900"}} className='py-4 sm:py-10 relative'>Let's Talk</p>
                 <div style={{zIndex:"899"}} className='backreveal2'></div>
             </div>
             </div>
