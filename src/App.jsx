@@ -24,7 +24,7 @@ function App() {
   
   return (
     <div className='bg-baseblack-100 font-b'>
-      <div class="cursor small"></div>
+      <div class="hidden cursor small"></div>
       <Herosection/>
       <Featured/>
       <Skills/>

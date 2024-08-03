@@ -18,6 +18,13 @@ body{
 body{
   cursor: pointer;
 }
+::-moz-selection { /* Code for Firefox */
+  background: rgba(200, 0, 54, 1);
+}
+
+::selection {
+  background: rgba(200, 0, 54, 1);
+}
 .small{
   z-index: 999;
   position: absolute;
