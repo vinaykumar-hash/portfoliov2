@@ -5,6 +5,7 @@ import Herosection from './components/Herosection'
 import Skills from './components/Skills';
 import Collab from './components/Collab';
 import { Analytics } from "@vercel/analytics/react"
+import Links from './components/Links';
 function App() {
   useEffect(()=>{
     const cursorSmall = document.querySelector('.small');
@@ -29,6 +30,7 @@ function App() {
       <Featured/>
       <Skills/>
       <Collab/>
+      <Links/>
       <Analytics/>
     </div>
   )
