@@ -22,7 +22,7 @@ const Collab = () => {
             <p className='flex'>Collaborate <p className='bg-basered-200'>.</p></p>
         </div>
         <div className=' relative flex justify-center items-center flex-col sm:flex-row text-4xl tracking-tighter font-bold gap-10 sm:gap-5 w-full pb-20 sm:pb-0'>
-          <img className='border-basered-100 border-2 h-40 sm:h-40 w-auto rounded-full' src="/profile.jpg" alt="" />
+          <img className='border-basered-100 border-2 h-40 sm:h-40 w-auto rounded-full' src="/IMG-20250320-WA0106 (1).jpg" alt="" />
           <div className='flex flex-col'>
           <a href='https://www.instagram.com/vinay_kumar.0.0/' >@vinay_kumar.0.0 </a>
           <a href='https://www.instagram.com/limit.lessuser/' className=' font-bold text-2xl pl-2 tracking-tight bg-basered-200'>@limit.lessuser</a>
