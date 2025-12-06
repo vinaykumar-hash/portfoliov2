@@ -28,10 +28,10 @@ const Featured = () => {
           </div>
           <div className='w-full h-screen flex justify-center items-center gap-20 py-20' >
             <div className='relative h-full w-11/12 bg-baseblack-100 overflow-y-scroll border-white/50 border flex justify-start items-center flex-col'>
-              <a href="https://www.behance.net/gallery/202415959/Tranquility" className='font-bold text-4xl sm:text-6xl text-center font-b tracking-tighter bg-baseblack-100 text-white py-6'>Tranquility</a>
-              <img className='' src="/project2.jpg" alt="" />
+              <a href="https://switchstyle.app/" className='font-bold text-4xl sm:text-6xl text-center font-b tracking-tighter bg-baseblack-100 text-white py-6'>Switchstyle<span className='text-basered-200'>.</span>app</a>
+              <iframe className='h-full w-full bg-white' src="https://switchstyle.app/" frameborder="0"></iframe>
               <div className='w-full sticky bottom-0'>
-                <p className='text-xl font-b text-center bg-baseblack-100 text-white py-2'>An Stress Releasing Application , Designed To Maintain Your Healthy Life - <a className='text-basered-200' href="https://www.behance.net/gallery/202415959/Tranquility">Behance Report</a></p>
+                <p className='text-xl font-b text-center bg-baseblack-100 text-white py-2'><a className='text-basered-200' href="https://switchstyle.app/">switchstyle.app</a></p>
               </div>
             </div>
           </div>
