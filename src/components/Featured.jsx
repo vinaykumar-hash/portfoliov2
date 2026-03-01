@@ -16,16 +16,7 @@ const Featured = () => {
             </div>
         </div>
         <div className='polkadot relative w-full border-white/50 border-t-2'>
-          <div className='w-full h-screen flex justify-center items-center gap-20 py-20' >
-            <div className='relative h-full w-11/12 bg-baseblack-100 overflow-y-scroll border-white/50 border flex justify-start items-center flex-col'>
-              <a href="https://vinaykumar-hash.github.io/KashiMantram/" className='font-bold text-4xl sm:text-6xl text-center font-b tracking-tighter bg-baseblack-100 text-white py-6'>kashimantram<span className='text-basered-200'>.</span>in</a>
-              {/* <iframe className='h-full w-full bg-white' src="https://vinaykumar-hash.github.io/KashiMantram/" frameborder="0"></iframe> */}
-              <img className='' src="/p1.png" alt="" />
-              <div className='w-full sticky bottom-0'>
-                <p className='text-xl font-b text-center bg-baseblack-100 text-white py-2'>A Hotel Booking Website Featuring Hotel Kashi Mantram Based in Kashi , Banaras , India . <a className='text-basered-200' href="https://vinaykumar-hash.github.io/KashiMantram/">kashimantram.in</a></p>
-              </div>
-            </div>
-          </div>
+          
           <div className='w-full h-screen flex justify-center items-center gap-20 py-20' >
             <div className='relative h-full w-11/12 bg-baseblack-100 overflow-y-scroll border-white/50 border flex justify-start items-center flex-col'>
               <a href="https://switchstyle.app/" className='font-bold text-4xl sm:text-6xl text-center font-b tracking-tighter bg-baseblack-100 text-white py-6'>Switchstyle<span className='text-basered-200'>.</span>app</a>
@@ -37,10 +28,20 @@ const Featured = () => {
           </div>
           <div className='w-full h-auto sm:h-screen flex justify-center items-center gap-20 py-20' >
             <div className='relative h-full w-11/12 bg-baseblack-100 overflow-y-scroll border-white/50 border flex justify-start items-center flex-col'>
-              <a href="https://www.behance.net/gallery/202415959/Tranquility" className='font-bold text-4xl sm:text-6xl text-center font-b tracking-tighter bg-baseblack-100 text-white py-6'>Beyond Border CRM</a>
-              <img className='' src="/project3.jpg" alt="" />
+              <a href="https://netflow-one.vercel.app/" className='font-bold text-4xl sm:text-6xl text-center font-b tracking-tighter bg-baseblack-100 text-white py-6'>Netflow</a>
+              <iframe className='h-full w-full bg-white' src="https://netflow-one.vercel.app/" frameborder="0"></iframe>
               <div className='w-full sticky bottom-0'>
-                <p className='text-xl font-b text-center bg-baseblack-100 text-white py-2'>An CRM - Customer Relationsip Management Application</p>
+                <p className='text-xl font-b text-center bg-baseblack-100 text-white py-2'>Real-time Network Flow Processing</p>
+              </div>
+            </div>
+          </div>
+          <div className='w-full h-screen flex justify-center items-center gap-20 py-20' >
+            <div className='relative h-full w-11/12 bg-baseblack-100 overflow-y-scroll border-white/50 border flex justify-start items-center flex-col'>
+              <a href="https://vinaykumar-hash.github.io/KashiMantram/" className='font-bold text-4xl sm:text-6xl text-center font-b tracking-tighter bg-baseblack-100 text-white py-6'>kashimantram<span className='text-basered-200'>.</span>in</a>
+              {/* <iframe className='h-full w-full bg-white' src="https://vinaykumar-hash.github.io/KashiMantram/" frameborder="0"></iframe> */}
+              <img className='' src="/p1.png" alt="" />
+              <div className='w-full sticky bottom-0'>
+                <p className='text-xl font-b text-center bg-baseblack-100 text-white py-2'>A Hotel Booking Website Featuring Hotel Kashi Mantram Based in Kashi , Banaras , India . <a className='text-basered-200' href="https://vinaykumar-hash.github.io/KashiMantram/">kashimantram.in</a></p>
               </div>
             </div>
           </div>
